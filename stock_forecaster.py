@@ -22,7 +22,7 @@ cierre = np.array(df['Price'])[::-1]
 variacion = cierre - apertura
 
 #df1 = pd.DataFrame({'Fecha':fecha, 'Apertura':apertura, 'Cierre':cierre, 'Maximo':maximo, 'Minimo':minimo, 'variacion':variacion})
-#df1.to_csv(r'C:\Users\Pablo\Desktop\datos.csv', index=True)
+#df1.to_csv(r'Desktop\datos.csv', index=True)
 
 maximo_global = np.amax(maximo)
 minimo_global = np.amin(minimo)
